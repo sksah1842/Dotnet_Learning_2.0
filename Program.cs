@@ -13,6 +13,12 @@ namespace HelloWorld
         {
             Console.WriteLine("Hello");
         }
+
+        public static float avg(int x, int y, int z)
+        {
+            int sum = x + y + z;
+            return sum/3;
+        }
         static void Main(string[] args)
         {
             //Console.Write("Enter first number: ");
@@ -125,6 +131,8 @@ namespace HelloWorld
 
             Greet();
             Greet();
+
+            Console.WriteLine(avg(1, 2, 3));
             Console.ReadLine();
         }
     }
