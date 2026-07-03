@@ -129,10 +129,19 @@ namespace HelloWorld
             //}
 
 
-            Greet();
-            Greet();
+            //Greet();
+            //Greet();
 
-            Console.WriteLine(avg(1, 2, 3));
+            //Console.WriteLine(avg(1, 2, 3));
+
+            Player p1 = new Player();
+            Console.WriteLine(p1.name);
+            //Console.WriteLine(p1.health);
+            p1.setHealth(60);
+            //Console.WriteLine(p1.health);
+
+            Console.WriteLine(p1.getHealth());
+
             Console.ReadLine();
         }
     }
