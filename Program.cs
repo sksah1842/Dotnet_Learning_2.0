@@ -134,13 +134,19 @@ namespace HelloWorld
 
             //Console.WriteLine(avg(1, 2, 3));
 
-            Player p1 = new Player();
-            Console.WriteLine(p1.name);
+            //Player p1 = new Player();
+            //Console.WriteLine(p1.name);
             //Console.WriteLine(p1.health);
-            p1.setHealth(60);
+            //p1.setHealth(60);
             //Console.WriteLine(p1.health);
 
-            Console.WriteLine(p1.getHealth());
+            //Console.WriteLine(p1.getHealth());
+
+            //constructorExample c1 = new constructorExample();
+            constructorExample c1 = new constructorExample(50);
+
+
+            c1.show();
 
             Console.ReadLine();
         }
