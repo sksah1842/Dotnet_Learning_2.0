@@ -7,33 +7,62 @@ using System.Threading.Tasks;
 namespace HelloWorld
 {
 
-    interface A
+    //interface A
+    //{
+    //    void Add();
+    //}
+
+    //interface B
+    //{
+    //    void Sub();
+    //}
+    //internal class Inheritance:A,B
+    //{
+    //    public void Add() {
+    //        int a = 10, b = 20;
+    //        Console.WriteLine(a + b);
+    //    }
+
+    //    public void Sub()
+    //    {
+    //        int a = 10, b = 20;
+    //        Console.WriteLine(a - b);
+    //    }
+    class Animal
     {
-        void Add();
+        public Animal(string name)
+        {
+            Console.WriteLine(name);
+        }
+        public void Eat()
+        {
+            Console.WriteLine("Animal Eating");
+        }
     }
 
-    interface B
+    class Dog : Animal
     {
-        void Sub();
-    }
-    internal class Inheritance:A,B
-    {
-        public void Add() {
-            int a = 10, b = 20;
-            Console.WriteLine(a + b);
+        public Dog() : base("Animal Constructor")
+        {
+
+        }
+        public void Show()
+        {
+            base.Eat();
+        }
         }
 
-        public void Sub()
+        public class Inheritance
+    {
+        public static void Main(string[] args)
         {
-            int a = 10, b = 20;
-            Console.WriteLine(a - b);
-        }
+            //Inheritance i = new Inheritance();
+            //i.Add();
+            //i.Sub();
 
-    public static void Main(string[] args)
-        {
-            Inheritance i = new Inheritance();
-            i.Add();
-            i.Sub();
+            Dog d = new Dog();
+            d.Eat();
+
         }
 }
 }
