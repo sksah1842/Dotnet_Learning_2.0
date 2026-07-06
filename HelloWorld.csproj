@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ShapeCalculator</StartupObject>
+    <StartupObject>HelloWorld.BankAccountSystem</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,7 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BankAccountSystem.cs" />
     <Compile Include="constructorExample.cs" />
+    <Compile Include="Encapsulation.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Polymorphism.cs" />
