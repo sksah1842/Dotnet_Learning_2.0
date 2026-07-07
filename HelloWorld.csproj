@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>HelloWorld.BankAccountSystem</StartupObject>
+    <StartupObject>HelloWorld.FileReader</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,8 @@
     <Compile Include="BankAccountSystem.cs" />
     <Compile Include="constructorExample.cs" />
     <Compile Include="Encapsulation.cs" />
+    <Compile Include="ExceptionHandling.cs" />
+    <Compile Include="FileReader.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Polymorphism.cs" />
