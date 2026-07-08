@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>HelloWorld.FileReader</StartupObject>
+    <StartupObject>HelloWorld.Collections</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BankAccountSystem.cs" />
+    <Compile Include="Collections.cs" />
     <Compile Include="constructorExample.cs" />
     <Compile Include="Encapsulation.cs" />
     <Compile Include="ExceptionHandling.cs" />
