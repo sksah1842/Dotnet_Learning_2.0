@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>HelloWorld.Collections</StartupObject>
+    <StartupObject>HelloWorld.ContactManagementSystem</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,11 +47,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BankAccountSystem.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Collections.cs" />
     <Compile Include="constructorExample.cs" />
+    <Compile Include="ContactManagementSystem.cs" />
+    <Compile Include="Dictionary.cs" />
     <Compile Include="Encapsulation.cs" />
     <Compile Include="ExceptionHandling.cs" />
     <Compile Include="FileReader.cs" />
+    <Compile Include="HashSet.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Polymorphism.cs" />
