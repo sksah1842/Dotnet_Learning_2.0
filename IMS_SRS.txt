@@ -1,1 +1,133 @@
-﻿
+﻿# Software Requirements Specification (SRS)
+
+## Project Title
+
+**Console-Based Inventory Management System**
+
+## 1. Project Overview
+
+The Console-Based Inventory Management System is a C# application that helps users manage products in an inventory. 
+It allows users to add, update, delete, search, and view products through a menu-driven console interface.
+The system is designed for small businesses or educational purposes to demonstrate Object-Oriented Programming concepts.
+
+## 2. Objective
+
+* Manage inventory records efficiently.
+* Reduce manual record-keeping.
+* Provide quick search and update operations.
+* Generate a simple inventory report.
+
+## 3. Scope
+
+The system will:
+
+* Add new products.
+* View all products.
+* Search for a product.
+* Update product details.
+* Delete products.
+* Display the total number of products.
+* Exit the application.
+
+## 4. Functional Requirements
+
+### Product Details
+
+Each product should contain:
+
+* Product ID
+* Product Name
+* Category
+* Quantity
+* Price
+
+### System Features
+
+1. Add Product
+
+   * Enter product details.
+   * Validate Product ID uniqueness.
+   * Save the product in memory.
+
+2. View Products
+
+   * Display all available products in tabular format.
+
+3. Search Product
+
+   * Search using Product ID.
+   * Display product details if found.
+
+4. Update Product
+
+   * Modify product name, category, quantity, or price.
+
+5. Delete Product
+
+   * Remove a product using Product ID.
+
+6. Inventory Summary
+
+   * Display total number of products.
+   * Display total inventory value (Quantity × Price).
+
+7. Exit
+
+   * Close the application safely.
+
+## 5. Non-Functional Requirements
+
+* User-friendly console interface.
+* Fast response time.
+* Input validation.
+* Easy to maintain and extend.
+* Reliable performance.
+
+## 6. Technologies Used
+
+* Programming Language: C#
+* Platform: .NET Console Application
+* IDE: Visual Studio 2022
+* Collection: `List<Product>` or `Dictionary<int, Product>`
+
+## 7. System Modules
+
+* Product Class
+* Inventory Management Module
+* Search Module
+* Update/Delete Module
+* Report Module
+* Menu Module
+
+## 8. Input Validation
+
+* Product ID must be unique.
+* Product Name cannot be empty.
+* Quantity must be greater than or equal to 0.
+* Price must be greater than 0.
+* User menu choice must be valid.
+
+## 9. Sample Menu
+
+1. Add Product
+2. View Products
+3. Search Product
+4. Update Product
+5. Delete Product
+6. Inventory Summary
+7. Exit
+
+## 10. Expected Output
+
+The application should allow users to manage inventory records through a menu-driven interface and display appropriate 
+success or error messages for every operation.
+
+## 11. Future Enhancements
+
+* Store data in a database (SQL Server/MySQL).
+* User login and authentication.
+* File-based data storage.
+* Barcode support.
+* Export reports to PDF or Excel.
+* Low-stock alerts.
+* Sales and purchase management.
