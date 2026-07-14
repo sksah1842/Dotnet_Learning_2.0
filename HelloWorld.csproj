@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>HelloWorld.ContactManagementSystem</StartupObject>
+    <StartupObject>HelloWorld.InventoryMangementSystem</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -57,6 +57,7 @@
     <Compile Include="FileReader.cs" />
     <Compile Include="HashSet.cs" />
     <Compile Include="Inheritance.cs" />
+    <Compile Include="InventoryMangementSystem.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Polymorphism.cs" />
     <Compile Include="Program.cs" />
@@ -72,6 +73,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="IMS_SRS.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
